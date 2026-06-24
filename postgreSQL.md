@@ -8,3 +8,16 @@ sudo -u postgres psql
   \x -> Toggle expanded display mode.
   \? -> Show help documentation for all available commands
   \q -> Quit the psql terminal and return to the normal Linux prompt
+Managing Users (ROLES):
+  --Creating a new user in postgreSQL
+  CREATE USER newTestUser WITH PASSWORD 'anyPass';
+  --Updating the password of a user in postgreSQL
+  ALTER USER newTestUser WITH PASSWORD 'newPass';
+  --Make the user a SuperUser
+  ALTER USER newTestUser WITH SUPERUSER;
+  --Giving Permission to Create a DB
+  ALTER USER newTestUser WITH CREATEDB;
+  --Deleting a User
+  DROP USER newTestUser;
+  --Granting Permissions to work on a DB
+  GRANT ALL PRIVILEGES ON DATABASE testDB TO newTestUser;
