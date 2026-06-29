@@ -6,3 +6,4 @@ postgreSQL
 Linux Permissions
 Remotely Accessing a server using SSH
 Docker
+FORTINET Introduction to Threat Landscape Course Completed
