@@ -9,3 +9,4 @@ Docker
 FORTINET Introduction to Threat Landscape Course Completed
 Virtualization & Containerization
 DevOps- Project LifeCycle, CI & CD
+FORTINET Getting Started with Cyber Security Course Completed
